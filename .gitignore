@@ -1,0 +1,30 @@
+# Secrets and credentials (CRITICAL - NEVER COMMIT)
+.env
+.env.*
+.env*.bak
+backup_working_setup/
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Temporary and debugging artifacts
+/scratch/
+/kaggle_output/
+*.log
+*.bak
+*.backup*
+
+# OS specific
+.DS_Store
+Thumbs.db

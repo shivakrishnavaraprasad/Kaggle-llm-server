@@ -1,0 +1,17 @@
+{
+  "id": "shivakrishna55/swift-server",
+  "title": "Swift Server",
+  "code_file": "swift_server.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "shivakrishna55/swift-qwen3-8-27b-q4-km",
+    "shivakrishna55/llama-server-cuda-t4"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}
