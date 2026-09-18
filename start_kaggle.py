@@ -288,7 +288,7 @@ def run_pipeline_sync(force_restart: bool = False) -> int:
         time.sleep(15)
 
     # 4. Poll for the new tunnel URL
-    new_url = poll_for_active_tunnel(slug, max_wait=360)
+    new_url = poll_for_active_tunnel(slug, max_wait=600)
     if not new_url:
         print("[-] Timed out waiting for an active tunnel.", file=sys.stderr)
         print("    Check Kaggle directly at https://www.kaggle.com/code/" + slug, file=sys.stderr)
