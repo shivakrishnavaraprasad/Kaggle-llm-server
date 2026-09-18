@@ -17,6 +17,7 @@ __pycache__/
 venv/
 env/
 ENV/
+local_backup/
 
 # Temporary and debugging artifacts
 /scratch/

@@ -248,4 +248,4 @@ In `~/.continue/config.json`:
 ---
 
 ## License
-MIT License. Free for personal, research, and commercial use.
+MIT License. Free for personal, research use.
